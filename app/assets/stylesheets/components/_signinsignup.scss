@@ -1,23 +1,17 @@
-// .column {
-//   float: left;
-//   width: 50%;
-// }
-
-
 .row-sisu {
   display:flex;
   justify-content:center;
-  // align-items: flex-start;
-//   flex-wrap: wrap;
-//   // flex-direction: column;
+// align-items: flex-start;
+// flex-wrap: wrap;
+// flex-direction: column;
 // align-content: space-between;
-//     justify-content: space-between;
+// justify-content: space-between;
   height: 100%;
 }
 
  .column-sisu {
   justify-content:center;
-  // flex-direction:row;
+// flex-direction:row;
   justify-content: space-between;
   display:inline-flex;
  }
@@ -27,4 +21,6 @@
   color:black;
   padding: 70px;
   text-align: center;
+  font-size: 14px;
 }
+

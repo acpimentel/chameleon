@@ -1,11 +1,9 @@
 // Specific CSS for your home-page
-
 body {
   background: url(leaves.jpg);
   background-size: 100% auto;
   color:white;
 }
-
 
 .box-home {
   display:flex;
@@ -19,15 +17,3 @@ body {
   text-align: center;
 }
 
-button {
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: #A83FFB;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 5px;
-  padding: 15px;
-  color: white;
-}
