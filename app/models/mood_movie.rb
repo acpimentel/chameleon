@@ -1,0 +1,2 @@
+class MoodMovie < ApplicationRecord
+end
