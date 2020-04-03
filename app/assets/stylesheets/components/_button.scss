@@ -1,0 +1,34 @@
+.btn-land {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #A83FFB;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-sisu {
+  // left: 0%;
+  // right: 0%;
+  // top: 0%;
+  // bottom: 0%;
+  background: black;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  border-radius: 7px;
+  font-size:12px;
+
+  &:hover {
+    background-color:white;
+}
+}
+
+

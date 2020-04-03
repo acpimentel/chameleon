@@ -1,0 +1,25 @@
+.footer {
+  justify-content: space-between;
+  background-color: #00000059;
+  transition: 0.5s background-color ease;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height:100%;
+  position: sticky;
+  // margin-top:40px;
+
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.footer-links a {
+  color:white;
+}
+
+.footer-icons a {
+  color:white;
+}
+

@@ -1,5 +1,21 @@
-<div class="box-footer">
-  <div>
+<div class="footer">
+  <div class="footer-icons">
+    <ul>
+      <li>
+        <a href="https://github.com/acpimentel"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/acatarinapimentel"><i class="fab fa-linkedin"></i></a>
+      </li>
+    </ul>
   </div>
+  <div class="footer-links">
+<!--     <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a> -->
+    <%= link_to "Home", root_path %>
+    <%= link_to "About", about_path %>
+    <%= link_to "Contact", contact_path %>
+  </div>
+    <div>
+      Made with &nbsp;<i class="fas fa-heart"></i> Chameleon
+    </div>
 </div>
-

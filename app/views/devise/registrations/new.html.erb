@@ -20,12 +20,12 @@
                         required: true,
                         input_html: { autocomplete: "new-password" } %>
             <div class="form-actions">
-            <%= f.button :submit, "Sign up" %>
+            <%= f.button :submit, "Sign up", class: "btn-sisu" %>
             </div>
+<%= render "devise/shared/links" %>
           </div>
       </div>
             <% end %>
   </div>
 </div>
 
-<%= render "devise/shared/links" %>
