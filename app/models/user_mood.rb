@@ -1,2 +1,0 @@
-class UserMood < ApplicationRecord
-end
