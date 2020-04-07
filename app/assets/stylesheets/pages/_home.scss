@@ -1,7 +1,8 @@
 // Specific CSS for your home-page
 body {
-  background: url(leaves.jpg);
-  background-size: 100% auto;
+  background-image: asset-url(leaves);
+  background-size:cover;
+  // background-size: 100% auto;
   color:white;
 }
 
