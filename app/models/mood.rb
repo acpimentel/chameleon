@@ -1,5 +1,5 @@
 class Mood < ApplicationRecord
-  has_many :user, through: :user_mood
-  has_many :quote, through: :mood_quote
-  has_many :movie, through: :mood_movie
+  has_many :users, through: :mood_users
+  has_many :quotes, through: :mood_quotes
+  has_many :movies, through: :mood_movies
 end
