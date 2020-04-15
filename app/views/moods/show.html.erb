@@ -1,0 +1,14 @@
+ <div>
+  <%  @movies.each do |movie| %>
+  </div>
+<div class="card-good-infos">
+
+          <p><%= movie.name%></p>
+          <p><%= movie.director%></p>
+
+  <% end %>
+
+    <%= submit_tag "Search", class: "btn btn-outline-secondary" %>
+    <%= link_to "See All", moods_path, class: "btn btn-outline-secondary" %>
+        </div>
+        </div>
