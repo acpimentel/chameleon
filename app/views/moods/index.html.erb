@@ -1,6 +1,5 @@
-
-  <div class="row" align="center">
-    <div class="col p-5">
+<div class="row" align="center">
+  <div class="col p-5">
 <%= form_tag moods_path, method: :get do %>
   <div>
     <label for="designer"> MOODS </label>
@@ -8,7 +7,12 @@
   <div>
     <%= select_tag(:mood, options_for_select(Mood::MOOD_NAME)) %>
   </div>
+<!--   <button> Search </button>
+    redirect_to
+ -->
+    <%= submit_tag "Search", class: "btn btn-outline-secondary" %>
+
 <% end %>
-    </div>
   </div>
+</div>
 
